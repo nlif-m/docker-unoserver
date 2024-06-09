@@ -1,7 +1,6 @@
 #!/bin/sh
 
 docker build \
-	-t unoconv:latest \
+	-t unoserver:latest \
 	-f Dockerfile \
-	--no-cache \
 	.
